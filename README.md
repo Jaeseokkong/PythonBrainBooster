@@ -20,30 +20,5 @@
 - [4-4: 객체로서의 함수](chapter/part4/4-4)
 - [4-5: 메서드](chapter/part4/4-5)
 
-## 기여 방법
-
-1. 이 프로젝트를 포크하세요.
-2. 새 브랜치를 만드세요 (`git checkout -b feature/lessonX`).
-3. 변경 사항을 커밋하세요 (`git commit -m 'Add some feature'`).
-4. 브랜치를 푸시하세요 (`git push origin feature/lessonX`).
-5. 풀 리퀘스트를 여세요.
-
-## 설치 및 사용 방법
-
-1. 이 레포지토리를 클론합니다:
-    ```bash
-    git clone https://github.com/username/PythonBrainBooster.git
-    ```
-2. 필요한 패키지를 설치합니다:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. 각 차시의 폴더로 이동하여 코드를 실행합니다:
-    ```bash
-    cd lessons/lesson1
-    python code.py
-    ```
-
-## 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+## 5 장: 구조적인 타입과 가변성
+- [5-1: 튜플](chapters/part5/5-1)
