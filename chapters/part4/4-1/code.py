@@ -136,4 +136,15 @@ z()
 # x = 4
 # x = 3
 # z = funtion
-# 
+
+def f():
+    print(x)
+
+def g():
+    print(x)
+    x = 1
+
+x = 3
+f()
+x = 3
+g()
