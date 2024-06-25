@@ -20,7 +20,7 @@
 - [4-4: 객체로서의 함수](chapter/part4/4-4)
 - [4-5: 메서드](chapter/part4/4-5)
 
-## 5 장: 구조적인 타입과 가변성
+### 5 장: 구조적인 타입과 가변성
 - [5-1: 튜플](chapters/part5/5-1)
 - [5-2: range와 iterator 타입](chapters/part5/5-2)
 - [5-3: 리스트와 가변성](chapters/part5/5-3)
@@ -30,8 +30,13 @@
 - [5-7: 딕셔너리](chapters/part5/5-7)
 - [5-8: 딕셔너리 내포](chapters/part5/5-8)
 
-## 6 장: 재귀와 전역 변수
+### 6 장: 재귀와 전역 변수
 - [6-0: 개요](chapters/part6/6-0)
 - [6-1: 피보나치수열](chapters/part5/6-1)
 - [6-2: 팰린드롬](chapters/part5/6-2)
 - [6-3: 전역 변수](chapters/part5/6-3)
+
+### 7 장: 모듈과 파일
+- [7-1: 모듈](chapters/part7/7-1)
+- [7-2: 사전에 정의된 패키지 사용하기](chapters/part7/7-2)
+- [7-3: 파일](chapters/part7/7-3)
