@@ -42,5 +42,8 @@
 - [7-3: 파일](chapters/part7/7-3)
 
 ### 8 장: 테스트와 디버깅
-- [8-1: 테스트](chapters/part7/8-1)
-- [8-2: 디버깅](chapters/part7/8-2)
+- [8-1: 테스트](chapters/part8/8-1)
+- [8-2: 디버깅](chapters/part8/8-2)
+
+### 9 장: 예외와 assert
+- [9-1: 예외 처리하기](chapters/part9/9-1)
