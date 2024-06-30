@@ -48,3 +48,4 @@
 ### 9 장: 예외와 assert
 - [9-1: 예외 처리하기](chapters/part9/9-1)
 - [9-2: 제어 흐름 메커니즘으로 예외 사용하기](chapters/part9/9-2)
+- [9-3: assert](chapters/part9/9-3/)
