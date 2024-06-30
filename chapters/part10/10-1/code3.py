@@ -57,6 +57,6 @@ print(him.get_name(), '의 나이는', him.get_age(), '일 입니다')
 pList = [me, him, her]
 for p in pList:
     print(p)
-pList.sort()
+pList.sort() # Person 클래스에 정의된 __lt__ 메서드로 리스트가 정렬된다.
 for p in pList:
     print(p)
