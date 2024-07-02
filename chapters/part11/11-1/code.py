@@ -20,3 +20,31 @@ def fact(n):
     return answer #1스텝
 #이 프로그램 스텝 수 1+1+5n ex) n = 1000, 5002스텝 실행
 
+## 완전 열거를 사용해 제곱근의 근삿값 찾기
+def square_root_exhaustive(x, epsilon):
+    """x와 epsilon은 양의 실수이고 epsilon < 1 이라고 가정한다.
+        x에서 epsilon 이내에 y*y가 있을 때 y를 반환한다."""
+    step = epsilon**2
+    ans = 0.0
+    while abs(ans**2 - x) >= epsilon and ans*ans <= x:
+        ans += step
+    if ans*ans > x:
+        raise ValueError
+    return ans
+
+## 이분 검색을 사용해 제곱근의 근삿값 차기
+def square_root_bi(x, epslion):
+    """x와 epsilon은 양의 실수이고 epsilon < 1 이라고 가정한다.
+        x에서 epsilon 이내에 y*y가 있을 때 y를 반환한다."""
+    low = 0.0
+    high = max(1.0, x)
+    ans = (high + low)/2.0
+    while abs(ans**2 - x) >= epslion:
+        if ans**2 < x:
+            low = ans
+        else:
+            high = ans
+        ans = (high + low)/2.0
+    return ans
+
+#완전 열거의 경우 느리다.
